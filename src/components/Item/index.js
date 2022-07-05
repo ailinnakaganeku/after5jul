@@ -1,6 +1,7 @@
 import React from "react";
 
-const Item = ({ pictureUrl, title, price }) => {
+const Item = ({ product }) => {
+  const { pictureUrl, title, price } = product;
   return (
     <div class="max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
       <img class="p-8 rounded-t-lg" src={pictureUrl} alt={title} />
