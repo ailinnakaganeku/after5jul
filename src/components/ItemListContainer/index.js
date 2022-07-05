@@ -16,7 +16,6 @@ const ItemListContainer = ({ greeting }) => {
     FINALLY IS USED TO HANDLE THE END OF THE PROMISE REGARDLESS OF THE STATE OF THE PROMISE. */
 
   useEffect(() => {
-    console.log("WITH THEN CATCH AND FINALLY");
     getData
       .then((data) => {
         setProducts(data);
@@ -38,7 +37,6 @@ const ItemListContainer = ({ greeting }) => {
    */
 
   useEffect(() => {
-    console.log("WITH ASYNC/AWAIT TRY CATCH FINALLY");
     const getProducts = async () => {
       try {
         const response = await getData;
