@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./styles.css";
-import getData from "../../data/products";
+import getData from "../../mockapi/products";
 import ItemList from "../ItemList";
 
 const ItemListContainer = ({ greeting }) => {
