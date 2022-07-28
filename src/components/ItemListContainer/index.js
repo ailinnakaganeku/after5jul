@@ -35,7 +35,7 @@ const ItemListContainer = ({ greeting }) => {
     IT IS GOING TO EXECUTE THAT ASYNC CODE AND THE REST OF THE CODE (NOT ASYNC CODE) AT THE SAME TIME.
     SO YOU MAY HAVE MULTIPLE DIFFERENT THREADS RUNNING YOUR CODE.
    */
-
+/* 
   useEffect(() => {
     const getProducts = async () => {
       try {
@@ -48,7 +48,7 @@ const ItemListContainer = ({ greeting }) => {
       }
     };
     getProducts();
-  }, []);
+  }, []); */
 
   return (
     <div>
